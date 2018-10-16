@@ -1,0 +1,49 @@
+.header {
+  justify-content: flex-end;
+  background: #FFF;
+}
+
+.flex {
+  display: flex;
+}
+
+.social {
+  font-size: 1.2rem;
+  margin: 0.5em 1em;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding:0.1em 0;
+  margin-left: 1em;
+}
+
+.logo-section {
+  border-bottom: 3px solid #e49b1e;
+  flex:1;
+}
+
+.navBar li:first-child {
+  background-color: #3aa6e2;
+}
+
+.navBar li:last-child {
+  margin-right: 1rem;
+}
+
+.navBar li a:hover,
+.navBar li a:active {
+  border-bottom: 5px solid #e49b1e;
+}
+
+.navBar li:first-child a {
+  color: #FFFFFF;
+}
+
+.navBar li:first-child a:hover,
+.navBar li:first-child a:checked {
+  background-color: #21a5ee;
+  border-bottom: 5px solid #bfbdbd;
+}

@@ -2,7 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
+.wrapper {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .wrapper {
+    flex-direction: column;
+    padding-right: 2em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
@@ -29,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

@@ -1,0 +1,10 @@
+.SideSignUp {
+  padding: 5em 2em;
+  position: fixed;
+  background: #FFF;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 200;
+}
