@@ -39,7 +39,7 @@ class App extends Component {
         <SiteNavbar/>
         <div className="wrapper flex">
 
-          <SquareText className="square" controlSideSignUpHandler={this.sideSignUpHandler}/>
+          <SquareText controlSideSignUpHandler={this.sideSignUpHandler}/>
           <Slider/>
 
           {sideSignUp}
