@@ -6,28 +6,24 @@ class SiteNavbar extends React.Component {
 
   render() {
     return (
-      <header className="flex header">
-        <div className="logo-section flex">
-          <div className="logo">
-            <i className="fab fa-connectdevelop"></i>
-          </div>
-          <div className="social-title">
-            <h1 className="social">social network</h1>
-          </div>
-        </div>
-        <Nav className="navBar flex" >
-          <NavItem>
+      <Nav className="navBar flex fixed-top" >
+        <NavItem className="navbar-brand border-bottom-orange">
+          <i className="fab fa-connectdevelop logo"></i>
+        </NavItem>
+        <NavItem className="navbar-text border-bottom-orange">
+          <h1 className="social">social network</h1>
+        </NavItem>
+        <NavItem className="sign-in link">
           <NavLink href="#">Sign in</NavLink>
-          </NavItem>
-          <NavItem>
+        </NavItem>
+        <NavItem className="link">
           <NavLink href="#">Contact</NavLink>
-          </NavItem>
-          <NavItem>
+        </NavItem>
+        <NavItem className="link">
           <NavLink href="#">About us</NavLink>
-          </NavItem>
-        </Nav>
-      </header>
-    );
+        </NavItem>
+      </Nav>
+      );
   }
 
 }

@@ -1,5 +1,4 @@
-.header {
-  justify-content: flex-end;
+.navBar {
   background: #FFF;
 }
 
@@ -7,11 +6,14 @@
   display: flex;
 }
 
-.social {
-  font-size: 1.2rem;
-  margin: 0.5em 1em;
-  text-transform: capitalize;
-  text-align: left;
+.border-bottom-orange {
+  border-bottom: 3px solid #e09c28;
+}
+
+.link:hover {
+  background: #EEE;
+  border-bottom: 3px solid #e09c28;
+  color: #3aa6e2;
 }
 
 .logo {
@@ -20,30 +22,34 @@
   margin-left: 1em;
 }
 
-.logo-section {
-  border-bottom: 3px solid #e49b1e;
+.navbar-brand {
+  text-align: left;
   flex:1;
+  margin: 0 !important;
+}
+.navbar-text {
+  text-align: right;
+  flex: 2;
+  padding: 0 1em;
 }
 
-.navBar li:first-child {
+.social {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.sign-in {
   background-color: #3aa6e2;
 }
 
-.navBar li:last-child {
-  margin-right: 1rem;
+.sign-in:hover {
+  background-color: #6bc6f9;
 }
 
-.navBar li a:hover,
-.navBar li a:active {
-  border-bottom: 5px solid #e49b1e;
-}
-
-.navBar li:first-child a {
-  color: #FFFFFF;
-}
-
-.navBar li:first-child a:hover,
-.navBar li:first-child a:checked {
-  background-color: #21a5ee;
-  border-bottom: 5px solid #bfbdbd;
+.sign-in a,
+.sign-in a:active,
+.sign-in a:hover {
+  color: #FFF;
 }
