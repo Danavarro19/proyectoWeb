@@ -7,12 +7,16 @@
 }
 
 .border-bottom-orange {
-  border-bottom: 3px solid #e09c28;
+  border-bottom: 4px solid #e09c28;
 }
 
 .link:hover {
   background: #EEE;
-  border-bottom: 3px solid #e09c28;
+  border-bottom: 4px solid #e09c28;
+  color: #3aa6e2;
+}
+
+.link a:hover {
   color: #3aa6e2;
 }
 
@@ -46,10 +50,17 @@
 
 .sign-in:hover {
   background-color: #6bc6f9;
+  border-bottom: 4px solid #712cf0;
 }
 
-.sign-in a,
+
 .sign-in a:active,
 .sign-in a:hover {
+    color: #712cf0;
+}
+
+
+
+.sign-in a {
   color: #FFF;
 }
